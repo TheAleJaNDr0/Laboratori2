@@ -5,7 +5,7 @@ public class problema3 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Aquest es el problema 3");
         System.out.println("Introdueix la paraula p: ");
-        String p = s.next();
+        String p = sc.next();
         boolean trobada = false;
         System.out.println("Introdueix una paraula: ");
         while (sc.hasNext()) {
@@ -25,7 +25,7 @@ public class problema3 {
             }
         }
 
-        if (trobada == true) {
+        if (trobada) {
             System.out.println("SI");
         } else {
             System.out.println("NO");

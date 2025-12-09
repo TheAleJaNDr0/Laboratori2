@@ -5,14 +5,8 @@ public class problema2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Aquest es el problema 2");
         System.out.println("Introdueix un numero x: ");
-        if (!sc.hasNextInt()) {
-            return;
-        }
         int x = sc.nextInt();
         System.out.println("Introdueix un numero y: ");
-        if (!sc.hasNextInt()) {
-            return;
-        }
         int y = sc.nextInt();
         boolean trobat = false;
 
@@ -24,7 +18,7 @@ public class problema2 {
             }
             y = y / 10;
         }
-        if (trobat == true) {
+        if (trobat) {
             System.out.println("SI");
         } else {
             System.out.println("NO");

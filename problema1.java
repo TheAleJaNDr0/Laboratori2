@@ -15,7 +15,7 @@ public class problema1 {
                 trobat = true;
             }
         }
-        if (trobat == true) {
+        if (trobat) {
             System.out.println("SI");
         } else {
             System.out.println("NO");
